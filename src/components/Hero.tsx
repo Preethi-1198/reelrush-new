@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Logo */}
-          <div className="mb-8 animate-float">
+          <div className="mb-8">
             <img 
               src="/lovable-uploads/c2d793ac-fd55-45b5-9948-75e9d7d76b51.png" 
               alt="Reel Rush Logo" 
@@ -83,9 +83,9 @@ const Hero = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="w-6 h-10 border-2 border-gray-600 rounded-full p-1">
-          <div className="w-2 h-3 bg-red-400 rounded-full mx-auto animate-pulse"></div>
+          <div className="w-2 h-3 bg-red-400 rounded-full mx-auto"></div>
         </div>
       </div>
     </section>
