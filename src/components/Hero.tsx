@@ -20,15 +20,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Logo */}
-          <div className="mb-8">
-            <img 
-              src="/lovable-uploads/c2d793ac-fd55-45b5-9948-75e9d7d76b51.png" 
-              alt="Reel Rush Logo" 
-              className="h-24 w-24 mx-auto mb-4 glow-red"
-            />
-          </div>
-
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Professional Reels
@@ -79,13 +70,6 @@ const Hero = () => {
           <div className="mt-12 text-gray-400 text-sm">
             <p>Trusted by 500+ couples across Hyderabad & UK</p>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-        <div className="w-6 h-10 border-2 border-gray-600 rounded-full p-1">
-          <div className="w-2 h-3 bg-red-400 rounded-full mx-auto"></div>
         </div>
       </div>
     </section>
