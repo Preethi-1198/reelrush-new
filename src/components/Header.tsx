@@ -36,6 +36,12 @@ const Header = () => {
               Features
             </button>
             <button 
+              onClick={() => scrollToSection('how-it-works')}
+              className="text-gray-300 hover:text-red-400 transition-colors"
+            >
+              How It Works
+            </button>
+            <button 
               onClick={() => scrollToSection('packages')}
               className="text-gray-300 hover:text-red-400 transition-colors"
             >
@@ -87,6 +93,12 @@ const Header = () => {
                 className="text-left text-gray-300 hover:text-red-400 transition-colors"
               >
                 Features
+              </button>
+              <button 
+                onClick={() => scrollToSection('how-it-works')}
+                className="text-left text-gray-300 hover:text-red-400 transition-colors"
+              >
+                How It Works
               </button>
               <button 
                 onClick={() => scrollToSection('packages')}
