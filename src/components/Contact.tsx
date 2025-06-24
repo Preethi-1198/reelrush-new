@@ -55,7 +55,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-white mb-2">Hyderabad, India</h4>
                     <p className="text-gray-400">
-                      Banjara Hills, Hyderabad<br />
+                      Narsingi, Hyderabad<br />
                       Telangana 500034, India
                     </p>
                   </div>
