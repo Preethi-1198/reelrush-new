@@ -70,8 +70,8 @@ const Features = () => {
         {/* Stats Section */}
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
-            <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">500+</div>
-            <div className="text-gray-400">Happy Couples</div>
+            <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">1000+</div>
+            <div className="text-gray-400">Reels Created</div>
           </div>
           <div>
             <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">10</div>

@@ -1,5 +1,5 @@
 
-import { Heart, MapPin, Phone, Mail, Instagram, Twitter, Youtube } from 'lucide-react';
+import { MapPin, Phone, Mail, Instagram, Twitter, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -59,7 +59,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-red-400 mt-1" />
                 <div className="text-gray-400 text-sm">
-                  <div>Hyderabad, India</div>
+                  <div>Branch 1: LBNagar, Hyderabad</div>
+                  <div>Branch 2: Narsingi, Hyderabad</div>
                   <div>United Kingdom</div>
                 </div>
               </div>
@@ -68,14 +69,9 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2024 Reel Rush. All rights reserved.
-          </div>
-          <div className="flex items-center space-x-1 text-gray-400 text-sm">
-            <span>Made with</span>
-            <Heart className="h-4 w-4 text-red-400" />
-            <span>for content creators</span>
+        <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-center items-center">
+          <div className="text-gray-400 text-sm">
+            © 2025 Reel Rush. All rights reserved.
           </div>
         </div>
       </div>

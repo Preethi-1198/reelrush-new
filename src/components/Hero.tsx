@@ -68,7 +68,7 @@ const Hero = () => {
 
           {/* Trust Indicators */}
           <div className="mt-12 text-gray-400 text-sm">
-            <p>Trusted by 500+ couples across Hyderabad & UK</p>
+            <p>Make Event Memories Instant & Accessible across Hyderabad & UK</p>
           </div>
         </div>
       </div>
